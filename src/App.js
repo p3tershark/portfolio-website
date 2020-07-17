@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <div className="container">
           <Switch>
-            <Route path={process.env.PUBLIC_URL + "/"} component={Home} />
+            <Route path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/channel" component={Channel} />
             <Route exact path="/tools" component={Tools} />
