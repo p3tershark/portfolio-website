@@ -20,11 +20,11 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/channel" component={Channel} />
-            <Route path="/tools" component={Tools} />
-            <Route path="/tools/munchcounter" component={MunchCounter} />
-            <Route path="/tools/randombutton" component={RandomButton} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/channel" component={Channel} />
+            <Route exact path="/tools" component={Tools} />
+            <Route exact path="/tools/munchcounter" component={MunchCounter} />
+            <Route exact path="/tools/randombutton" component={RandomButton} />
           </Switch>
         </div>
       </div>
