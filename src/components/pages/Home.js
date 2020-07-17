@@ -23,25 +23,15 @@ const Home = () => {
             </p>
             <p>
               Using the navbar, you can get some more information about me under
-              the{" "}
-              <a className="text-danger" href="/about">
-                About
-              </a>{" "}
-              menu.
+              the <strong className="text-danger">About</strong> menu.
             </p>
             <p>
-              In the{" "}
-              <a className="text-danger" href="/tools">
-                Tools
-              </a>{" "}
-              menu you can try web aplications I built using ReactJS.
+              In the <strong className="text-danger">Tools</strong> menu you can
+              try web aplications I built using ReactJS.
             </p>
             <p>
-              The{" "}
-              <a className="text-danger" href="/channel">
-                Channel
-              </a>{" "}
-              menu is about my Youtube channel, please check that too.
+              The <strong className="text-danger">Channel</strong> menu is about
+              my Youtube channel, please check that too.
             </p>
             <p>Have a nice time on my site!</p>
             <p>Best wishes</p>
