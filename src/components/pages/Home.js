@@ -1,11 +1,10 @@
 import React from "react";
+import homeBackground from "../images/home_background.jpeg";
 
 const Home = () => {
-  let ImgPath =
-    "https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
   return (
     <div className="container user-select-none">
-      <img src={ImgPath} alt="bg" className="bg" />
+      <img src={homeBackground} alt="bg" className="bg" />
 
       <div className="d-flex align-items-center flex-column">
         <div className="p-5">

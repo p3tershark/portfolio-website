@@ -1,12 +1,11 @@
 import React from "react";
 import profileImg from "../images/profileimg.jpg";
+import aboutBackground from "../images/about_background.jpeg";
 
 const About = () => {
-  let ImgPath =
-    "https://images.pexels.com/photos/1038935/pexels-photo-1038935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
   return (
     <div className="container user-select-none">
-      <img src={ImgPath} alt="bg" className="bg" />
+      <img src={aboutBackground} alt="bg" className="bg" />
       <div className="row">
         <div className="col p-3 m-2 about portrait">
           <img className="img-fluid mx-auto" src={profileImg} alt="portrait" />

@@ -1,12 +1,11 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import channelBackground from "../images/channel_background.jpeg";
 
 const Channel = () => {
-  let ImgPath =
-    "https://images.pexels.com/photos/275226/pexels-photo-275226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
   return (
     <div>
-      <img src={ImgPath} alt="bg" className="bg" />
+      <img src={channelBackground} alt="bg" className="bg" />
       <div className="d-flex align-items-center flex-column">
         <div className="p-5">
           <h1 className="text-center greeting p-3">My Channel</h1>
