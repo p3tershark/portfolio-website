@@ -38,7 +38,7 @@ const Tools = () => {
           </NavLink>
         </div>
 
-        {/* <div className="container text-center m-1 w-75 tools">
+        <div className="container text-center m-1 w-75 tools">
           <h5 className="card-title text-left mt-2">Measurement Converter</h5>
           <p className="text-right pr-3">Pounds to kg and back</p>
           <small>This tool helps you to convert weight measures quickly.</small>
@@ -48,7 +48,7 @@ const Tools = () => {
           >
             Try now!
           </NavLink>
-        </div> */}
+        </div>
       </div>
     </div>
   );

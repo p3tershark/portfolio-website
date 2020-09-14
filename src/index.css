@@ -29,19 +29,7 @@ img.bg {
   right: 0;
   z-index: -1;
 
-  opacity: 0.8;
-}
-
-img.archImg {
-  border-radius: 16px;
-}
-
-img.archImgLib {
-  border-radius: 22px;
-}
-
-.card {
-  width: 18rem;
+  opacity: 0.6;
 }
 
 i {
@@ -137,4 +125,10 @@ div.rdgrid {
 .table {
   background-color: rgba(66, 66, 66, 0.8);
   border-radius: 15px;
+}
+
+.theui {
+  padding: 25px;
+  background-color: rgba(66, 66, 66, 0.7);
+  border-radius: 5px;
 }

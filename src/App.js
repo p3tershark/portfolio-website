@@ -8,6 +8,7 @@ import Channel from "./components/pages/Channel";
 import Tools from "./components/pages/Tools";
 import MunchCounter from "./components/apps/munch/MunchCounter";
 import RandomButton from "./components/apps/randombutton/RandomButton";
+import Measures from "./components/apps/measures/Measures";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/tools" component={Tools} />
             <Route exact path="/tools/munchcounter" component={MunchCounter} />
             <Route exact path="/tools/randombutton" component={RandomButton} />
+            <Route exact path="/tools/measures" component={Measures} />
           </Switch>
         </div>
       </div>
