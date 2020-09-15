@@ -4,7 +4,7 @@ import Navbar from "./components/layouts/Navbar";
 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Channel from "./components/pages/Channel";
+import Videos from "./components/pages/Videos";
 import Tools from "./components/pages/Tools";
 import MunchCounter from "./components/apps/munch/MunchCounter";
 import RandomButton from "./components/apps/randombutton/RandomButton";
@@ -22,7 +22,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/channel" component={Channel} />
+            <Route exact path="/videos" component={Videos} />
             <Route exact path="/tools" component={Tools} />
             <Route exact path="/tools/munchcounter" component={MunchCounter} />
             <Route exact path="/tools/randombutton" component={RandomButton} />

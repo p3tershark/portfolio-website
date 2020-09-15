@@ -29,8 +29,9 @@ const Home = () => {
               try web aplications I built using ReactJS.
             </p>
             <p>
-              The <strong className="text-danger">Channel</strong> menu is about
-              my Youtube channel, please check that too.
+              The <strong className="text-danger">Videos</strong> menu is about
+              some of my favourite videos and my Youtube channel, please check
+              that too.
             </p>
             <p>Have a nice time on my site!</p>
             <p>Best wishes</p>

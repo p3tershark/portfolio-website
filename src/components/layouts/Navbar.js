@@ -44,9 +44,9 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/channel" className="nav-link">
+              <NavLink to="/videos" className="nav-link">
                 <small>
-                  <i className="fas fa-wifi"></i> Channel
+                  <i className="fas fa-wifi"></i> Videos
                 </small>
               </NavLink>
             </li>
