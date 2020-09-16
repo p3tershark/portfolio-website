@@ -92,10 +92,6 @@ div.rdgrid {
   border-radius: 5px;
 }
 
-.rggame {
-  max-height: 75vh;
-}
-
 .about {
   font-size: 1.4em;
   padding: 15px;
@@ -136,4 +132,10 @@ div.rdgrid {
   padding: 25px;
   background-color: rgba(66, 66, 66, 0.7);
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  #rndgame {
+    display: none;
+  }
 }

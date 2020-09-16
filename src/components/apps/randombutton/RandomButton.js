@@ -12,8 +12,8 @@ class RandomButton extends Component {
       <div className="container text-center user-select-none">
         <img src={toolslBackground} alt="bg" className="bg" />
 
-        <div className="d-flex align-items-center flex-column rdgame">
-          <div className="p-1">
+        <div className="d-flex align-items-center flex-column">
+          <div className="p-1" id="rndgame">
             <h3 className="text-center greeting p-2">The Random Button Game</h3>
           </div>
 
