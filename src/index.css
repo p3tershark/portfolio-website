@@ -76,20 +76,24 @@ div.mylogo strong {
 
 button.rdbutton {
   user-select: none;
-  font-size: 30px;
+  font-size: 2em;
   font-weight: bold;
-  min-width: 80px;
-  width: 85px;
+  width: 3em;
+  height: 2.2em;
   padding: 10px 30px;
   margin: 0 3px 3px 0;
   border-radius: 10px;
 }
 
 div.rdgrid {
-  padding: 25px;
+  padding: 10px;
   max-width: 370px;
   background-color: rgba(66, 66, 66, 0.7);
   border-radius: 5px;
+}
+
+.rggame {
+  max-height: 75vh;
 }
 
 .about {
